@@ -16,7 +16,7 @@ namespace NameFormat
             forename = Console.ReadLine();
             Console.WriteLine("Please Enter Your Surname.");
             surname = Console.ReadLine();
-            Console.WriteLine("Ah I see that your name is {0} {1} {2}, how interesting. Press any key to exit.",title,forename,surname);
+            Console.WriteLine("Ah I see that your name is {0} {1} {2}. Press any key to exit.",title,forename,surname);
             end = Console.ReadLine();
             Console.WriteLine("Program now ending.");
         }
