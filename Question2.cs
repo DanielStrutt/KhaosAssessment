@@ -4,12 +4,14 @@ namespace NameFormat
 {
     class Program
     {
+        //This function accepts three string parameters (Title, First name, Last name) to print an individuals full name.
         static void Main(string[] args)
         {
             string title;
             string forename;
             string surname;
             string end;
+            
             Console.WriteLine("Please Enter Your Title.");
             title = Console.ReadLine();
             Console.WriteLine("Please Enter Your Forename.");
