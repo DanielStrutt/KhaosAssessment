@@ -100,6 +100,9 @@ namespace Question7
         
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
+            addedButton.Foreground = Brushes.Black;
+            checkBox.Foreground = Brushes.Black;
+            listBox.Foreground = Brushes.Black;
             String message = "";
 
             if(addButtonToggle)
